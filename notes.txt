@@ -1,0 +1,36 @@
+npm init
+
+# npm does not stand for Node Package Manager.
+
+Parcel --> It is a bundler which is used to package the code
+
+npm i -D parcel   --> -D --> Dev dependency (Dependency used in development env)
+
+"parcel": "^2.9.3"  --> The ^ symbol denotes that when there is an version upgrade, parcel package updates automatically. ~ denotes major version update.
+
+package.json --> Contains the npm configuration
+
+package-lock.json --> It locks the version which are used to build the app in dev env.
+
+Transitive dependencies --> if a dependency has it's own dependencies, then such a dependency is called Transitive Dependency.
+
+npx parcel home.html --> Trigger the creation of app.
+
+npx -->  Execute the module
+
+HMR --> Hot Module Replacement. (automatically updates the server when changes are made.)
+
+Babel --> Converts JSX to React
+
+Parcel uses babel to convert jsx to react.
+
+
+React Component:
+    1. Class Based Component  --> OLD WAY(Not Used now).
+    2. Functional Component   --> Latest  --> It is a normal js function which returns JSX.
+
+Component Composition --> A Component embedded inside another Component.
+
+JSX prevents cross-site injection attacks.
+
+Include a react functional component in an element or another functional component.  ---> <ComponntName /> or <ComponentName> </ComponentName> or {ComponentName()}
